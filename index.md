@@ -10,9 +10,17 @@ layout: page
 {% for pair in volunteer_schedule[1] %}
     {% for doc in site.docs %}
     {% if doc[0] == pair[1] %}
-        <li>{{ pair[0] | capitalize | replace:'00',':00' | replace:'30',':30'  }} - <a href="{{ doc[1] }}">{{ pair[1] }}</a></li>
+        {% assign linked = true %} 
+        {% assign link = doc[1] %}
     {% endif %}
     {% endfor %}
+
+    {% if linked %}
+        <li>{{ pair[0] | capitalize | replace:'00',':00' | replace:'30',':30'  }} - <a href="{{ link }}">{{ pair[1] }}</a></li>
+    {% else %}
+        <li>{{ pair[0] | capitalize | replace:'00',':00' | replace:'30',':30'  }} - {{ pair[1] }}</li>
+    {% endif %}
+    {% assign linked = false %}
 {% endfor %}
 </ul>
 {% endfor %}
