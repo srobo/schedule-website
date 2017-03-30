@@ -1,0 +1,293 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - gems/
+  - Gemfile
+  - Gemfile.lock
+
+
+schedule:
+  abarrettsprot:
+    saturday-0830-1100: robot-inspector
+    saturday-1100-1300: battery-charging-volunteer
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: match-scorer
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: match-score-entry
+    sunday-1300-1500: match-scorer
+    sunday-1500-1730: match-scorer
+  agriffiths:
+    saturday-0830-1100: receptionist
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: roving-helper
+    saturday-1500-1730: roving-helper
+    sunday-0830-1100: battery-charging-volunteer
+    sunday-1100-1300: helpdesk-volunteer
+    sunday-1300-1500: receptionist
+    sunday-1500-1730: shepherd
+  anikitin:
+    saturday-0830-1100: roving-helper
+    saturday-1100-1300: commentator
+    saturday-1300-1500: match-scorer
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: receptionist
+    sunday-1100-1300: roving-helper
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: receptionist
+  asmith:
+    saturday-0830-1100: receptionist
+    saturday-1100-1300: receptionist
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: match-score-entry
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: refreshments
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: battery-charging-volunteer
+  cprice:
+    saturday-0830-1100: receptionist
+    saturday-1100-1300: helpdesk-volunteer
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: shepherd
+  gpayne:
+    saturday-0830-1100: arrivals-desk
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: match-scorer
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: commentator
+    sunday-1100-1300: commentator
+    sunday-1300-1500: commentator
+    sunday-1500-1730: commentator
+  hbuck:
+    saturday-0830-1100: commentator
+    saturday-1100-1300: commentator
+    saturday-1300-1500: match-score-entry
+    saturday-1500-1730: battery-charging-volunteer
+    sunday-0830-1100: helpdesk-volunteer
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: arena-changeroverer
+  jbutler:
+    sunday-0830-1100: match-scorer
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: helpdesk-volunteer
+    sunday-1500-1730: shepherd
+  jgough:
+    saturday-0830-1100: robot-inspector
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: commentator
+    sunday-0830-1100: robot-inspector
+    sunday-1100-1300: match-scorer
+    sunday-1300-1500: match-scorer
+    sunday-1500-1730: kit-return
+  jhoward:
+    saturday-0830-1100: tinker-co-ordinator
+    saturday-1100-1300: tinker-co-ordinator
+    saturday-1300-1500: helpdesk-volunteer
+    saturday-1500-1730: receptionist
+    sunday-0830-1100: helpdesk-volunteer
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: helpdesk-volunteer
+    sunday-1500-1730: shepherd
+  jroff:
+    saturday-1300-1500: match-scorer
+    saturday-1500-1730: helpdesk-volunteer
+    sunday-0830-1100: roving-helper
+    sunday-1100-1300: receptionist
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: shepherd
+  jseden:
+    saturday-0830-1100: arrivals-desk
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: battery-charging-volunteer
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: roving-helper
+    sunday-1300-1500: battery-charging-volunteer
+    sunday-1500-1730: shepherd
+  jsun:
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: roving-helper
+    sunday-0830-1100: match-score-entry
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: roving-helper
+    sunday-1500-1730: shepherd
+  jthompson:
+    saturday-0830-1100: volunteer-coordinator
+    saturday-1100-1300: volunteer-coordinator
+    saturday-1300-1500: volunteer-coordinator
+    saturday-1500-1730: volunteer-coordinator
+    sunday-0830-1100: volunteer-coordinator
+    sunday-1100-1300: volunteer-coordinator
+    sunday-1300-1500: volunteer-coordinator
+    sunday-1500-1730: volunteer-coordinator
+  kdavis:
+    saturday-0830-1100: arrivals-desk
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: roving-helper
+    sunday-0830-1100: match-scorer
+    sunday-1100-1300: helpdesk-volunteer
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: match-scorer
+  mwarman:
+    saturday-0830-1100: helpdesk-volunteer
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: refreshments
+    saturday-1500-1730: roving-helper
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: battery-charging-volunteer
+    sunday-1300-1500: receptionist
+    sunday-1500-1730: helpdesk-volunteer
+  nhayward:
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: match-scorer
+    sunday-1300-1500: match-scorer
+    sunday-1500-1730: shepherd
+  osteptoe:
+    saturday-0830-1100: receptionist
+    saturday-1100-1300: helpdesk-volunteer
+    saturday-1300-1500: roving-helper
+    saturday-1500-1730: commentator
+    sunday-0830-1100: receptionist
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: match-score-entry
+    sunday-1500-1730: shepherd
+  pdavies:
+    saturday-0830-1100: head-shepherd
+    saturday-1100-1300: head-shepherd
+    saturday-1300-1500: head-shepherd
+    saturday-1500-1730: head-shepherd
+    sunday-0830-1100: head-shepherd
+    sunday-1100-1300: head-shepherd
+    sunday-1300-1500: head-shepherd
+    sunday-1500-1730: head-shepherd
+  plaw:
+    saturday-0830-1100: competition-software-coordinator
+    saturday-1100-1300: competition-software-coordinator
+    saturday-1300-1500: competition-software-coordinator
+    saturday-1500-1730: competition-software-coordinator
+    sunday-0830-1100: competition-software-coordinator
+    sunday-1100-1300: competition-software-coordinator
+    sunday-1300-1500: competition-software-coordinator
+    sunday-1500-1730: competition-software-coordinator
+  rbarlow:
+    saturday-0830-1100: competition-team-support-coordinator
+    saturday-1100-1300: competition-team-support-coordinator
+    saturday-1300-1500: competition-team-support-coordinator
+    saturday-1500-1730: competition-team-support-coordinator
+    sunday-0830-1100: competition-team-support-coordinator
+    sunday-1100-1300: competition-team-support-coordinator
+    sunday-1300-1500: competition-team-support-coordinator
+    sunday-1500-1730: competition-team-support-coordinator
+  rcolquhoun:
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: receptionist
+    saturday-1500-1730: battery-charging-volunteer
+  rinkpen:
+    saturday-0830-1100: battery-charging-volunteer
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: shepherd
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: shepherd
+  rspanton:
+    saturday-0830-1100: intro-briefer
+    saturday-1100-1300: competition-event-coordinator
+    saturday-1300-1500: competition-event-coordinator
+    saturday-1500-1730: competition-event-coordinator
+    sunday-0830-1100: competition-event-coordinator
+    sunday-1100-1300: competition-event-coordinator
+    sunday-1300-1500: competition-event-coordinator
+    sunday-1500-1730: competition-event-coordinator
+  sbedford:
+    saturday-0830-1100: competition-team-coordinator
+    saturday-1100-1300: competition-team-coordinator
+    saturday-1300-1500: competition-team-coordinator
+    saturday-1500-1730: competition-team-coordinator
+    sunday-0830-1100: competition-team-coordinator
+    sunday-1100-1300: competition-team-coordinator
+    sunday-1300-1500: competition-team-coordinator
+    sunday-1500-1730: competition-team-coordinator
+  senglish:
+    saturday-0830-1100: receptionist
+    saturday-1100-1300: match-scorer
+    saturday-1300-1500: commentator
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: commentator
+    sunday-1100-1300: commentator
+    sunday-1300-1500: commentator
+    sunday-1500-1730: arena-changeroverer
+  shall:
+    saturday-0830-1100: helpdesk-volunteer
+    saturday-1100-1300: shepherd
+    saturday-1300-1500: commentator
+    saturday-1500-1730: helpdesk-volunteer
+    sunday-0830-1100: match-scorer
+    sunday-1100-1300: match-scorer
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: battery-shuffler
+  spadel:
+    saturday-0830-1100: battery-shuffler
+    saturday-1100-1300: match-score-entry
+    saturday-1300-1500: battery-charging-volunteer
+    saturday-1500-1730: shepherd
+    sunday-0830-1100: arrivals-desk
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: roving-helper
+    sunday-1500-1730: kit-return
+  tleese:
+    saturday-0830-1100: head-match-scorer
+    saturday-1100-1300: head-match-scorer
+    saturday-1300-1500: head-match-scorer
+    saturday-1500-1730: head-match-scorer
+    sunday-0830-1100: head-match-scorer
+    sunday-1100-1300: head-match-scorer
+    sunday-1300-1500: head-match-scorer
+    sunday-1500-1730: head-match-scorer
+  tscarsbrook:
+    saturday-0830-1100: competition-health-and-safety-coordinator
+    saturday-1100-1300: competition-health-and-safety-coordinator
+    saturday-1300-1500: competition-health-and-safety-coordinator
+    saturday-1500-1730: competition-health-and-safety-coordinator
+    sunday-0830-1100: competition-health-and-safety-coordinator
+    sunday-1100-1300: competition-health-and-safety-coordinator
+    sunday-1300-1500: competition-health-and-safety-coordinator
+    sunday-1500-1730: competition-health-and-safety-coordinator
+  wmarshall:
+    saturday-0830-1100: helpdesk-volunteer
+    saturday-1100-1300: match-scorer
+    saturday-1300-1500: helpdesk-volunteer
+    saturday-1500-1730: match-scorer
+    sunday-0830-1100: shepherd
+    sunday-1100-1300: shepherd
+    sunday-1300-1500: shepherd
+    sunday-1500-1730: door-guard
