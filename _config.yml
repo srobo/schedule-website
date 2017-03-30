@@ -34,6 +34,28 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+docs:
+  robot-inspector: http://scarzybrook.co.uk/SR/robotinspector.pdf
+  head-shepherd: https://github.com/thomasleese/sr-match-coordinator/wiki/shepherding#head-shepherd
+  head-match-scorer: https://github.com/thomasleese/sr-match-coordinator/wiki/match-scoring#head-match-scorer
+  commentator: https://github.com/thomasleese/sr-match-coordinator/wiki/commentating#commentator
+  judge: https://github.com/thomasleese/sr-match-coordinator/wiki/match-scoring#head-match-scorer
+  shepherd: https://github.com/thomasleese/sr-match-coordinator/wiki/shepherding#shepherd
+  match-scorer: https://github.com/thomasleese/sr-match-coordinator/wiki/match-scoring#match-scorer
+  match-score-entry: https://github.com/thomasleese/sr-match-coordinator/wiki/match-scoring#match-score-entry
+  arena-changeroverer: https://bitbucket.org/richardbarlow/sr-arena-manager/wiki/sr2017#markdown-header-final-day-arena-changeover
+  helpdesk-volunteer: https://bitbucket.org/richardbarlow/sr-comp-team-support-coord/wiki/helpdesk
+  battery-charging-volunteer: https://bitbucket.org/richardbarlow/sr-comp-team-support-coord/wiki/battery%20charging
+  roving-helper: https://bitbucket.org/richardbarlow/sr-comp-team-support-coord/wiki/roving%20helper
+  battery-shuffler: https://bitbucket.org/richardbarlow/sr-comp-team-support-coord/wiki/battery_shuffler
+  refreshments: https://gist.github.com/howiegoing/5876963bc0dcb63a6fa1028b02d1a5a6
+  receptionist: https://github.com/jmorse/comp-team-roles/blob/master/reception.md
+  crimper: https://github.com/jmorse/comp-team-roles/blob/master/crimper.md
+  door-guard: https://github.com/jmorse/comp-team-roles/blob/master/door-guard.md
+  intro-briefer: https://github.com/jmorse/comp-team-roles/blob/master/intro-briefer.md
+  arrivals-desk: https://github.com/jmorse/comp-team-roles/blob/master/teamleader-desk.md
+  tinker-co-ordinator: https://github.com/jmorse/comp-team-roles/blob/master/tinker.md
+  kit-return: https://github.com/jmorse/comp-team-roles/blob/master/kit-return.md
 
 schedule:
   abarrettsprot:

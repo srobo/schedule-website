@@ -6,7 +6,13 @@ layout: page
 ---
 {% for volunteer_schedule in site.schedule %}
 <h3>{{volunteer_schedule[0]}}</h3>
+<ul>
 {% for pair in volunteer_schedule[1] %}
-{{pair[0]}} - {{pair[1]}}
+    {% for doc in site.docs %}
+    {% if doc[0] == pair[1] %}
+        <li>{{ pair[0] | capitalize | replace:'00',':00' | replace:'30',':30'  }} - <a href="{{ doc[1] }}">{{ pair[1] }}</a></li>
+    {% endif %}
+    {% endfor %}
 {% endfor %}
+</ul>
 {% endfor %}
