@@ -181,6 +181,9 @@ schedule:
     sunday-1100-1300: helpdesk-volunteer
     sunday-1300-1500: shepherd
     sunday-1500-1730: match-scorer
+  muppington:
+    saturday-1300-1500: battery-charging-volunteer
+    saturday-1500-1730: match-scorer
   mwarman:
     saturday-0830-1100: helpdesk-volunteer
     saturday-1100-1300: shepherd
