@@ -220,6 +220,9 @@ schedule:
     saturday-1300-1500: shepherd
     saturday-1500-1730: shepherd
     sunday-0830-1100: shepherd
+    sunday-1100-1300: receptionist
+    sunday-1300-1500: match-scorer
+    sunday-1500-1730: match-score-entry
   rspanton:
     saturday-0830-1100: intro-briefer
     saturday-1100-1300: competition-event-coordinator
